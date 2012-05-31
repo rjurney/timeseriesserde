@@ -15,7 +15,7 @@ public final class TimeSeries extends UDF {
     }
     else
     {
-        return "";
+      return "";
     }
   }
 }
