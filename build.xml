@@ -19,6 +19,7 @@
 
   <path id="classpath">
     <fileset dir="lib" includes="**/*.jar"/>
+    <fileset dir="lib" includes="/me/hive-0.9.0/lib/*.jar"/>
   </path>
 
   <target name="clean">
