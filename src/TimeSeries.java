@@ -12,8 +12,9 @@ public final class TimeSeries extends UDF {
     if(i > 0) {
       {
         for(Integer counter = 0; counter < i; counter++) {
-          if(counter % 2 == 0)
-          stars += "*";
+          // Every 3 count make a star
+          if(counter % 3 == 0)
+            stars += "*";
         }
       }
       return new Text(stars.toString());
