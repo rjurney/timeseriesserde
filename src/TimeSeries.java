@@ -13,7 +13,7 @@ public final class TimeSeries extends UDF {
       {
         for(Integer counter = 0; counter < i; counter++) {
           // Every 3 count make a star
-          if(counter % 3 == 0)
+          if(counter % 20 == 0)
             stars += "*";
         }
       }
