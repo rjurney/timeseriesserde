@@ -12,6 +12,7 @@ public final class TimeSeries extends UDF {
     if(i > 0) {
       {
         for(Integer counter = 0; counter < i; counter++) {
+          if(counter % 2 == 0)
           stars += "*";
         }
       }
